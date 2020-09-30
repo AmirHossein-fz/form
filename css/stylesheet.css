@@ -1,0 +1,37 @@
+*{
+    font-family: Tahoma;
+}
+body{
+    font-family: Tahoma;
+    direction: rtl;
+
+}
+form{
+    background-color: lightcyan;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    float: right;
+}
+textarea{
+    width: 300px;
+    height: 200px;
+    border: 1px solid gray;
+    resize: none;
+}
+input[type=text],input[type=password]{
+    width: 180px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+td[colspan="2"]{
+    text-align: center;
+}
+input[type=submit],input[type=reset]{
+    width: 60px;
+    height: 28px;
+    background-color: lightgray;
+    border-radius: 4px;
+    border: 1px solid black;
+}
